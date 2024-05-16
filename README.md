@@ -11,7 +11,7 @@ Also the command used for building the docker image: 'docker build -t monitor-ag
 
 The command used for deploying the agent as a container: 'docker run -d -v /var/run/docker.sock:/var/run/docker.sock --name monitor-agent monitor-agent'
 
-Note that these queries are run in the bash script inside the folder which consists of all the 3 files (monitor_contaners, DockerFile, requirements.txt).
+Note that these commands are to be run in the bash script inside the folder which consists of all the 3 files (monitor_contaners, DockerFile, requirements.txt).
 
 
 
