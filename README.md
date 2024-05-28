@@ -11,6 +11,8 @@ The command used for building the docker image: 'docker build -t monitor-agent .
 
 The command used for deploying the agent as a container: 'docker run -d -v /var/run/docker.sock:/var/run/docker.sock --name monitor-agent monitor-agent'
 
+I have also attached a file display.php where you can run any sql query to get an overview of the queries and their performance. You can also add graphs and different entities for your data depending on your use-case.
+
 Note that these commands are to be run in the bash script inside the folder which consists of all the 3 files (monitor_contaners, DockerFile, requirements.txt).
 
 
